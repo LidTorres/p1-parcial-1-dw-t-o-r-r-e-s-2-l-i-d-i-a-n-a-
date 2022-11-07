@@ -32,7 +32,7 @@ html {
 
 /** Body */
 body {
-    background-color: #134F5C;
+    background-color: blue;
     color: #D0E0E3;
 }
 
@@ -57,7 +57,7 @@ h2 {
 
 h2 {
     font-size: 3em;
-    color: #134F5C;
+    color: white;
 }
 
 /** Main */
@@ -67,14 +67,14 @@ main {
     justify-content: flex-start;
     align-items: flex-start;
     padding: 4em 2em;
-    background-color: #FFF;
+    background-color: red;
 }
 
 main p {
     font-size: 2.4em;
     line-height: 1.5;
     text-align: left;
-    color: #134F5C;
+    color: gray;
 }
 
 main p strong, 
@@ -103,7 +103,7 @@ main ul li {
     font-size: 2.4em;
     line-height: 1.5;
     text-align: left;
-    color: #1A4A5E;
+    color: gray;
 }
 
 main ul li strong,
@@ -124,12 +124,13 @@ main button {
     border: none;
     border-radius: .5em;
     padding: .25em .5em;
-    background: #134F5C;
+    background: blue;
     cursor: pointer;
     font-size: 2.4em;
     line-height: 1.5;
     text-align: center;
     color: #D0E0E3;
+    border: gray solid 5px;
 }
 
 main div.galeria {
@@ -173,7 +174,7 @@ main div.galeria div h3 {
     padding: .5em;
     font-size: 3.2em;
     text-align: center;
-    color: #134F5C;
+    color: gray;
 }
 
 main div.galeria div p {
