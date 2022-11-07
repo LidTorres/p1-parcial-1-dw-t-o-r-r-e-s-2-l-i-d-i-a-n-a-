@@ -1,0 +1,18 @@
+    no me salia cuando trataba de Mostrar
+    
+    Todos.push({
+        Nombre: nombre,
+        Autor: autor,
+        Codigo: codigo,
+        Pistas: pista
+    });
+
+const Mostrar = () => {
+    let html = '';
+
+    for (const item of disco){
+        html += Todos.armar ();
+    }
+    document.getElementById("Todo").innerHTML = html;
+
+}
